@@ -29,12 +29,12 @@ classDiagram
 	class Product{
 		ChangeNotifierProvider
 		for Product
-		- final String id
-		- final String title
-		- final String description
-		- final double price
-		- final String imageUrl
-		- bool isFavorite
+		final String id
+		final String title
+		final String description
+		final double price
+		final String imageUrl
+		bool isFavorite
 	}
 	Products --|> ProductsOverviewScreen
 	Product --|> ProductDetailScreen
